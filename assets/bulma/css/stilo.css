@@ -21,9 +21,6 @@ header{
     background: rosybrown;
 }
 
-nav{
-    background: rebeccapurple;
-}
 
 .apo{
   padding-left: 20%;
@@ -37,4 +34,10 @@ p{
 }
 h3{
     text-align: left;
+}
+
+img{
+    padding: 40px;
+    width: 40px;
+    margin-top: auto;
 }
