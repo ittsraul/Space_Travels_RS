@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+}
+.apo{
+    text-align: center;
+    
+}
+.con{
+    text-align: right;
+    
+}
+
+.nav-enlace {
+    display: inline-flex;
+    background-color:  black;
+    color: rgb(255, 255, 255);
+    padding: 10px 70px;
+}
+
+.nav-enlace:hover{
+    background: rosybrown;
+}
+
+nav{
+    background: rebeccapurple;
+}
+
+.apo{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.coment{
+    padding-left: 5%;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
