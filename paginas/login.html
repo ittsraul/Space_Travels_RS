@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./../assets/bulma/css/stilo.css">
-    <link rel="stylesheet" href="./../assets/bulma/css/bulma.css">
-    <title>Document</title>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./../assets/bulma/css/stilo.css">
+  <link rel="stylesheet" href="./../assets/bulma/css/bulma.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <form class="box" action="">
     <header>
-       <h1>Iniciar Sesión En Cuenta Existente: <img src="./../img/log in.png" /></h1>
+      <h1>Iniciar Sesión En Cuenta Existente:
+        <button type="button"><img src="./../img/login.png" class="is-pulled-right" alt=""></button>
+      </h1>
     </header>
-  </head>
-  <body>
-    <article>
-      <section>
-      <br/>
-       <form class="box">
+    <nav class="is-pulled-left">
+      <ul>
+        <li>
+          <a href="paginas/comentarios.html">Comentarios</a>
+        </li>
+        <li>
+          <a href="paginas/Competencia.html">Competencia</a>
+        </li>
+        <li>
+          <a href="paginas/IdeasYPrototipos.html">Ideas</a>
+        </li>
+        <li>
+          <a href="paginas/Inconvenientes.html">Inconvenientes</a>
+        </li>
+        <li>
+          <a href="paginas/login.html">Login</a>
+        </li>
+        <li>
+          <a href="paginas/nuestrasopiniones.html">Opiniones</a>
+        </li>
+        <li>
+          <a href="paginas/signin.html">Registrarse</a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <br />
         <div class="field">
-      <label class="label">Número telefónico</label>
-        <input class="input" type="tel" required placeholder="963852741"/>
-     </div>
+          <label class="label">Número telefónico</label>
+          <input class="input" type="tel" required placeholder="963852741" />
+        </div>
         <div class="field">
           <label class="label">Email</label>
           <div class="control">
@@ -33,37 +63,39 @@
           </div>
           <label class="label">Recuerdame <input type="checkbox"></label>
         </div>
-        <button onclick="" class="button is-primary"><a href='Introducion.html'> Login</a>
-        </button> 
-      </section>
+        <button onclick="" class="button is-primary">login</button>
       </article>
+    </section>
     <aside>
-        <h1>Your Profile</h1>
-        <img src="./../img/log in.png" alt="log in">
-      </form>
-    </fieldset>
-    <br /><br />
-    <div class="box has-text-centered">
-      <button class="button is-large">
-          <a href="./../index.html"> Volver a inicio</a>
-        </button>
-    </div>
-  </aside>
-    <footer>
-      <footer class="footer">
-        <div class="content has-text-centered">
-            <div class="columns is-gapless is-multiline is-mobile">
-                <div class="column is-one-quarter">
-                    <a href="./comentarios.html">Comentarios</a>
-                </div>
-                <div class="column is-one-quarter">
-                    <a href="./donaciones.html">Donaciones</a>
-                </div>
-                <div class="column is-one-quarter">
-                    <a href="./termsandConditions.html">TérminosYCondiciones</a>
-                </div>
-            </div>
+      <h1>Your Profile</h1>
+      <img src="./../img/login.png" alt="log in" class="topright">
+      <br>
+      <nav>
+          <div><a>log in</a></div>
+          <div><a>sign in</a></div>
+          <div><a>Settings</a></div>
+      </nav>
+      <br>
+      <div class="box has-text-centered">
+        <button class="button is-large"> Volver a inicio</button>
+      </div>
+    </aside>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div class="columns is-gapless is-multiline is-mobile">
+          <div class="column is-one-quarter">
+            <a href="./comentarios.html">Comentarios</a>
+          </div>
+          <div class="column is-one-quarter">
+            <a href="./donaciones.html">Donaciones</a>
+          </div>
+          <div class="column is-one-quarter">
+            <a href="./termsandConditions.html">TérminosYCondiciones</a>
+          </div>
         </div>
+      </div>
     </footer>
-  </body>
+  </form>
+</body>
+
 </html>
