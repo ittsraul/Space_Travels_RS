@@ -11,37 +11,69 @@
 
 <body>
     <header>
-        <img src="./img/nave-logo.png" alt="nave-logo">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://bulma.io">
+                <img src="./img/nave-logo.png" width="112" height="28">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item">
+                  Home
+                </a>
+          
+                <a class="navbar-item">
+                  Documentation
+                </a>
+          
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    More
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                      About
+                    </a>
+                    <a class="navbar-item">
+                      Jobs
+                    </a>
+                    <a class="navbar-item">
+                      Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                      Report an issue
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-primary">
+                      <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-light">
+                      Log in
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
         <h1>Viajes espaciales</h1>
     </header>
-    <article>
-        <nav class="navbar-menu">
-            <ul>
-                <li>
-                    <a href="paginas/comentarios.html">Comentarios</a>
-                </li>
-                <li>
-                    <a href="paginas/Competencia.html">Competencia</a>
-                </li>
-                <li>
-                    <a href="paginas/IdeasYPrototipos.html">Ideas</a>
-                </li>
-                <li>
-                    <a href="paginas/Inconvenientes.html">Inconvenientes</a>
-                </li>
-                
-                <li>
-                    <a href="paginas/login.html">Login</a>
-                </li>
-                <li>
-                    <a href="paginas/nuestras opiniones.html">Opiniones</a>
-                </li>
-                <li>
-                    <a href="paginas/signin.html">Registrarse</a>
-                </li>
-            </ul>
-        </nav>
-    </article>
+
 
     <style>
         footer {
