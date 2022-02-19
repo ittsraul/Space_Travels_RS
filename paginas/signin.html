@@ -1,144 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./../assets/bulma/css/bulma.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <fieldset>
-      <h1>Crear Cuenta: <img src="./../img/sign in.png" /></h1>
-      <hr />
-      <br />
-      <br /><br />
-      <fieldset>
-        <legend>Genero del postor:</legend>
-        <p>
-          <br /><br />
-          <label
-            ><input
-              type="radio"
-              name="Genero"
-              value="helicoptero apache"
-            />Helicoptero apache</label
-          >
-          <br /><br />
-          <label
-            ><input
-              type="radio"
-              name="Genero"
-              value="Femenino"
-            />Masculino</label
-          >
-          <br /><br />
-          <label
-            ><input
-              type="radio"
-              name="Genero"
-              value="Masculino"
-            />Femenino</label
-          >
-        </p>
-      </fieldset>
-      <br /><br />
-      <fieldset>
-        <p>
-          Indica el país de residencia <br /><br />
-          <select name="Pais" required>
-            <option value="" id="Elg">Elegir</option>
-            <option value="España" id="Es">España</option>
-            <option value="Otro lugar" id="other">Otro lugar</option>
-          </select>
-          <br /><br />
-        </p>
-        <p>
-          De ser otro indique cual: <br /><br />
-          <label
-            >Cual es tu país?<br /><input type="text" name="otro" value="otro"
-          /></label>
-        </p>
-      </fieldset>
-      <br /><br />
-      <label
-        >Número telefónico:<br />
-        <input type="tel" required name="tel" value="" />
-      </label>
-      <br />
-      <br />
-      <label
-        >Email<br />
-        <input type="email" required name="email" value="" />
-      </label>
-      <br />
-      <br />
-      <label
-        >Contraseña<br />
-        <input type="password" required name="password" value="" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Recuerdame<input type="checkbox" name="recordarme" value="" />
-      </label>
-    </fieldset>
-    <br /><br />
-    <nav>
-      <button type="submit" required name="Sign_in" value="">Sign_in</button>
-      <button>
-        <a href="./../index.html">Volver a inicio</a>
-      </button>
-    </nav>
-    <br />
-    <hr />
-    <br />
-    <footer>
-      <nav>
-        <ul>
-          <a href="./comentarios.html">Comentarios</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./donaciones.html">Donaciones</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./Competencia.html">Competencia</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./Inconvenientes.html">Inconvenientes</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./IdeasYPrototipos.html">IdeasYPrototipos</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./másideasyprototipos.html">Más</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./nuestras opiniones.html">Nuestras opiniones</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./signin.html">Comentarios</a>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <a href="./termsandConditions.html">TérminosYCondiciones</a>
-        </ul>
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./../assets/bulma/css/bulma.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+
+        <a class="navbar-item ad"></a>
+        <img src="../img/nave-logo.png " alt="navelogo">
+        <h1 class="title">
+          <strong>Viajes espaciales</strong>
+        </h1>
+
+        <a href="../index.html" class="navbar-item">
+          Home
+        </a>
+
+        <a class="navbar-item" href="./Introducion.html">
+          Introducion
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Más
+          </a>
+          <!-- Dentro de más -->
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="./donaciones.html">
+              Mantenimiento del foro
+            </a>
+            <a class="navbar-item">
+
+            </a>
+            <a class="navbar-item" href="./QuieneSomos.html">
+              Acerca de nosotros
+            </a>
+            <hr class="navbar-divider">
+          </div>
+        </div>
+      </div><a href="./signin.html">Crear Cuenta: <img src="./../img/signin.png" style=" width: 5em;
+        padding-left: 25px;
+        height: 50px;" alt="Sign Up" class="imagneProfile" /></a>
+    </div>
+
+  </header>
+
+  <br>
+  <div class="columns is-mobile">
+    <div class="column">
+      <div class="field">
+        ¿Cual es tu genero?
+        <br>
+        <label class="radio"><input type="radio" name="Genero" value="helicoptero apache" />Helicoptero apache</label>
+
+        <label class="radio"><input type="radio" name="Genero" value="Femenino" />Masculino</label>
+
+        <label class="radio"><input type="radio" name="Genero" value="Masculino" />Femenino</label>
+        <br>
+        <hr>
+      </div>
+      <div class="field">
+        Indica el país de residéncia:
+        <select name="Pais" required>
+          <option value="" id="Elg">Elegir</option>
+          <option value="España" id="Es">España</option>
+          <option value="Otro lugar" id="other">Otro lugar</option>
+        </select>
+        <br>
+        <br>
+        De ser otro indique cual:
+        <label>Cual es tu país?<br /><input type="text" name="otro" value="otro" /></label>
+        <br>
+        <hr>
+      </div>
+    </div>
+    <div class="column">
+      <div class="field">
+        <label class="label">Número telefónico:<br />
+          <input type="tel" required name="tel" value="" />
+        </label>
+        <label class="label">Email<br />
+          <input type="email" required name="email" value="" />
+        </label>
+        <label class="label">Contraseña<br />
+          <input type="password" required name="password" value="" />
+        </label>
+        <br>
+      </div>
+    </div>
+  </div>
+  <label class="label">
+    Recuerdame<input type="checkbox" name="recordarme" value="" />
+  </label>
+  <button onclick="" class="button is-primary">Sign Up</button>
+  <div class="box has-text-centered">
+    <button class="button is-large"> Volver a inicio</button>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div class="columns is-gapless is-multiline is-mobile">
+          <div class="column is-one-quarter">
+            <a href="./comentarios.html">Comentarios</a>
+          </div>
+          <div class="column is-one-quarter">
+            <a href="./donaciones.html">Donaciones</a>
+          </div>
+          <div class="column is-one-quarter">
+            <a href="./termsandConditions.html">TérminosYCondiciones</a>
+          </div>
+        </div>
+      </div>
+  </div>
     </footer>
-  </body>
+    <style>
+      div {
+        text-align: left;
+        font-size: 1em;
+      }
+
+      img {
+        width: 5em;
+      }
+
+      .imagneProfile {
+        width: 10em;
+        padding-left: 25px;
+        height: 130px;
+      }
+
+      h1 {
+
+        padding-right: 2em;
+        padding-top: 8px;
+
+      }
+
+      a {
+        font-size: 20pt;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .pio {
+        padding-left: 2%;
+
+      }
+
+      .coment {
+        padding-right: 0em;
+
+        padding-left: 0px;
+      }
+
+      .jam {
+        text-align: left;
+        color: aqua;
+
+      }
+
+      header {}
+
+      .inf {
+        text-align: left;
+        color: springgreen;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 96%;
+        height: 20px;
+        margin-left: 2%;
+        margin-bottom: 1%;
+      }
+
+      .apo {
+        width: 40em;
+
+      }
+
+
+      li {
+        padding-bottom: 2em;
+      }
+    </style>
+</body>
+
 </html>
