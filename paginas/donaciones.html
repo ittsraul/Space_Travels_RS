@@ -11,16 +11,12 @@
 
 <body>
   <header>
-
-
-
-
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
 
         <a class="navbar-item ad"></a>
-        <img src="../img/nave-logo.png" alt="">
-        <h1 class="title">
+        <a href="QuieneSomos.html"><img src="../img/nave-logo.png"></a>
+        <h1 class="title h1no">
           <strong>Viajes espaciales</strong>
         </h1>
 
@@ -28,8 +24,12 @@
           Home
         </a>
 
-        <a class="navbar-item">
-          Documentation
+        <a class="navbar-item" href="Introducion.html">
+          Introduccion
+        </a>
+
+        <a class="navbar-item" href="donaciones.html">
+          Mantenimiento del foro
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
@@ -39,17 +39,19 @@
           <div class="navbar-dropdown">
 
 
-             <!-- Dentro de más -->
+            <!-- Dentro de más -->
 
-             
-            <a class="navbar-item">
-              About
+            <a class="navbar-item" href="IdeasYPrototipos.html">
+              Ideas y prototipos
             </a>
-            <a class="navbar-item">
-              Jobs
+            <a class="navbar-item" href="Competencia.html">
+              Competencia
             </a>
-            <a class="navbar-item">
-              Contact
+            <a class="navbar-item" href="nuestrasopiniones.html">
+              Nuestras opiniones
+            </a>
+            <a class="navbar-item" href="comentarios.html">
+              Contactarnos
             </a>
             <hr class="navbar-divider">
             <a class="navbar-item">
@@ -59,13 +61,59 @@
         </div>
       </div>
   </header>
+  <article>
+  <div class="columns is-multiline is-mobile"></div>
+    <div class="columns">
+    <div class="column is-one-third">
+      <h1 class="h1dos">
+        <strong>¿Porqur apoyarnos?</strong> 
+      </h1>
+      <form class="box">
+        <p>
+          "At vero eos et accusamus et iusto odio dignissimos ducimus 
+          qui blanditiis praesentium voluptatum deleniti atque corrupti 
+          quos dolores et quas molestias excepturi sint occaecati 
+          cupiditate non provident, similique sunt in culpa qui officia 
+          deserunt mollitia animi, id est laborum et dolorum fuga.
+           Et harum quidem rerum facilis est et expedita distinctio.
+            Nam libero tempore, cum soluta nobis est eligendi optio
+             cumque nihil impedit quo minus id quod maxime placeat 
+             facere possimus, omnis voluptas assumenda est, omnis dolor 
+             repellendus. Temporibus autem quibusdam et aut officiis debitis 
+             aut rerum necessitatibus saepe eveniet ut et voluptates 
+             repudiandae sint et molestiae non recusandae. Itaque earum
+              rerum hic tenetur a sapiente delectus, ut aut reiciendis
+               voluptatibus maiores alias consequatur aut perferendis 
+               doloribus asperiores repellat."
+        </p>
 
+      </form>
+    
+    </div>
+    <div class="column is-one-fifth"></div>
+    <div class="column ">
+      <h1 class="h1dos">
+        <strong> Como donar</strong>
+      </h1>
+    
+      <div class="columns">
+        <div class="column is-half">
+          <form class="box">
+            
 
+          </form>
+        </div>
+        <div class="column is-half">
+        <form class="box">
+          <h1 class="h1dos">Metodos de pago</h1>
+          
 
-
-
-
-
+        </form>
+        </div>
+      </div>
+      
+    </div>
+  </article>
   <footer class="footer">
 
     <div class="content has-text-centered">
@@ -111,13 +159,17 @@
   img {
     width: 5em;
   }
+  .h1dos{
+    text-align: center;
+  }
 
-  h1 {
+  .h1no {
 
     padding-right: 2em;
     padding-top: 8px;
 
   }
+
   footer {
     position: absolute;
     bottom: 0;
@@ -126,5 +178,4 @@
     margin-left: 2%;
     margin-bottom: 1%;
   }
-
 </style>
