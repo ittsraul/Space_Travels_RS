@@ -1,4 +1,4 @@
-header{
+/* header{
     text-align: center;
 }
 .apo{
@@ -47,4 +47,77 @@ img{
     top: 8px;
     right: 16px;
     font-size: 18px;
+  } */
+
+  div {
+    text-align: left;
+    font-size: 1em;
+  }
+
+  img {
+    width: 5em;
+  }
+
+  .imagneProfile {
+    width: 10em;
+    padding-left: 25px;
+    height: 130px;
+  }
+
+  h1 {
+
+    padding-right: 2em;
+    padding-top: 8px;
+
+  }
+
+  a {
+    font-size: 20pt;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .pio {
+    padding-left: 2%;
+
+  }
+
+  .coment {
+    padding-right: 0em;
+
+    padding-left: 0px;
+  }
+
+  .jam {
+    text-align: left;
+    color: aqua;
+
+  }
+
+  header {}
+
+  .inf {
+    text-align: left;
+    color: springgreen;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+
+  .apo {
+    width: 40em;
+
+  }
+
+
+  li {
+    padding-bottom: 2em;
   }
