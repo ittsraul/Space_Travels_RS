@@ -121,3 +121,90 @@ img{
   li {
     padding-bottom: 2em;
   }
+  .pie {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+  /* ser quienes*/
+  .arti{
+    padding-left: 3em;
+  }
+ .dos{
+  
+  width: 15em;
+ }
+
+  .largo{
+    width: 35em;
+
+  }
+  
+
+  .h1no {
+
+    padding-right: 2em;
+    padding-top: 8px;
+
+  }
+  td{
+    padding-left: 2.5em;
+    padding-top: 1em;
+  }
+  .h1dos{
+    text-align: center;
+  }
+  .jamon {
+    text-align: center;
+  }
+  .dinero{
+    
+    width: 35em;
+  }
+
+  .h1tres{
+    padding-left: 15em;
+  }
+  .uno{
+    width: 9em;
+    padding-left: 2em;
+  }
+  .dos{
+    width: 9em;
+    padding-left: 2em;
+  }
+  .tres{
+    width: 20em;
+    padding-left: 2em;
+    padding-top: 5em;
+  }
+  .mid{
+    padding-top: 7em;
+    padding-left: 3em;
+  }
+  .lef{
+    padding-left: 2em;
+  }
+  .rig{
+    padding-right: 2em;
+  }
+  .pep{
+    text-align: center;
+  }
+
+  .artip{
+    padding-left: 3em;
+  }
+ .dos{
+  
+  width: 15em;
+ }
+ 
+ 
+.lardo{
+  width: 35em;
+
+}
